@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentacao</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <section>
+    <div class="content">
+    <h1>Sistema de Agenda</h1>
+
+    <h2>Introdução</h2>
+    <p>
+        O sistema de agenda, tem o objetivo de auxiliar o usuário a gerenciar seus
+        compromissos de maneira simples e eficiente, com esse sistema será possível
+        inserir os dados do usuário para que ele mantenha uma segurança de suas
+        informações através de um login e do cadastro, ao acessar a agenda propriamente
+        dita, será mostrado um calendário em que o usuário poderá navegar pelos dias
+        e meses e selecionar a data que deseja cadastrar seus eventos podendo editar
+        e excluí-los, além de poder se deslogar do aplicativo para acessar ou 
+        cadastrar outra conta.
+    </p>
+
+    <h2>Requisitos</h2>
+
+    <p>
+        Os requisitos são os comportamentos ou propriedades que a agenda deverá atender.
+        Eles mostram o que será necessário no projeto, ou seja, foca nos objetivos que o projeto possui. Diante disso, 
+        listamos os requisitos funcionais e não funcionais e os casos de que vão compor o sistema.
+    </p>
+    
+    <h3>Requisitos Funcionais</h3>
+
+    <p class="paragrafo">
+        Os requisitos funcionais definem como o sistema se comporta e o que ele faz para 
+        atender as necessidades dos usuários. Listamos os requisitos funcionais utilizados 
+        no sistema de agenda:
+    </p>
+
+    <ul>
+    <a href="./req_funcional/login.html"><li>Login</li></a>
+    <a href="./req_funcional/cadastro.html"><li>Cadastro</li></a>
+    <a href="./req_funcional/visu_calen.html"><li>Visualizar calendário</li></a>
+    <a href="./req_funcional/trocar_mes.html"><li>Trocar mês</li></a>
+    <a href="./req_funcional/criar_evento.html"><li>Criar evento</li></a>
+    <a href="./req_funcional/visu_evento.html"><li>Visualizar evento</li></a>
+    <a href="./req_funcional/editar_evento.html"><li>Editar evento</li></a>
+    <a href="./req_funcional/excluir_evento.html"><li>Excluir evento</li></a>
+    <a href="./req_funcional/editar_usuario.html"><li>Editar dados do usuário</li></a>
+    <a href="./req_funcional/logout.html"><li>Logout</li></a>
+    </ul>
+
+    <h3>Requisitos não funcionais</h3>
+
+    <p class="paragrafo">
+        Os requisitos não funcionais definem a qualidade do sistema, esses requisitos estão associados 
+        a usabilidade, desempenho, segurança do aplicativo. Listamos os requisitos não funcionais utilizados 
+        no sistema de agenda:
+    </p>
+
+    <ul>
+    <a href="./req_nao_funcional/usabilidade.html"><li>Usabilidade</li></a>
+    <a href="./req_nao_funcional/confiabilidade.html"><li>Confiabilidade</li></a>
+    <a href="./req_nao_funcional/desempenho.html"><li>Desempenho</li></a>
+    <a href="./req_nao_funcional/seguranca.html"><li>Segurança</li></a>
+    <a href="./req_nao_funcional/padroes.html"><li>Padrões</li></a>
+    <a href="./req_nao_funcional/facilidade.html"><li>Facilidade</li></a>
+    <a href="./req_nao_funcional/manutencao.html"><li>Manutenção</li></a>
+    </ul>
+
+    <h3>Diagrama de casos de uso</h3>
+
+    <p>
+        O diagrama de casos de uso, documenta as principais funcionalidades do sistema e como elas interagem com o usuário do mesmo sistema. 
+    </p>
+        <a href="./req_funcional/todos_casos_uso.html">
+            <img src="../img/Diagrama_casos_uso.png" class="a" alt="">
+        </a>
+        
+
+    <div class="system">
+        <h3>System Metaphor</h3>
+        <p>
+            O System Metaphor se propõe a explicar quais os tipos de tecnologia que estão sendo utilizadas no desenvolvimento do sistema,
+            no caso da agenda, utilizamos <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">HTML </a>,
+            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">CSS </a> e <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+                JavaScript</a> para o frontend, no backend utilizamos o <a href="https://pypi.org/project/Flask/" target="_blank">Flask</a> e como SGBD utilizamos o 
+                <a href="https://www.mysql.com/downloads/" target="_blank">MySQL</a>.
+        </p>
+        <a href="../html/system_metaphor/sys_metaphor.html">
+            <img src="../img/system_metaphor.png"  alt="">
+        </a>
+    </div>
+    
+
+    <h3>Diagrama de Fluxo de telas</h3>
+    <p>
+        Esse diagrama de fluxo de telas tem por objetivo, mostrar como os usuários terão que percorrer pelas telas do aplicativo. É o caminho pelo qual deve-se traçar 
+        para conseguir utilizar todas as funcionalidades que a agenda tem a oferecer. <br>
+
+    </p>
+    <img src="../img/FLUXO DE TELAS.png" class="imagem" alt="">
+
+
+
+    <h2>Análise & Projeto</h2>
+
+    <h3>Diagrama Entidade Relacionamento</h3>
+
+    <p>
+        O diagrama entidade relacionamento exemplifica de maneira visual uma estrutura de banco de dados, tem objetivo de mostrar as entidades (pessoas, objetos, etc), 
+        seus atributos (características) e seus relacionamentos (ligação) com outra entidade. No caso do nosso sistema de agenda, possuímos duas entidades: agenda_usuario e 
+        agenda_eventos e um relacionamento entre elas de um para muitos, ou seja um usuário poderá ter um ou mais eventos cadastrados. <br>
+    </p>
+    <a href="./banco_de_dados/bd.html">
+        <img src="../img/BD.png" class="im" alt="">
+    </a>
+
+
+    <h3>Modelo C4</h3>
+
+    <p class="pp">
+        Esse modelo visa mostrar um conjunto de diagramas hierárquicos baseado em camadas e que descreve a arquitetura 
+        do sistema, é dividido em níveis e cada um dos níveis trata de maneira mas aprofundada e com mais detalhes sobre cada
+        parte do sistema.
+
+
+    </p>
+    <ul>
+        <a href="./Modelo_C4/nivel1.html"><li>Nível 1</li></a>
+        <a href="./Modelo_C4/nivel2.html"><li>Nível 2</li></a>
+        <a href="./Modelo_C4/nivel3.html"><li>Nível 3</li></a>
+        <a href="./Modelo_C4/nivel4.html"><li>Nível 4</li></a>
+    </ul>
+    </div>
+    </section>
+      
+</body>
+</html>

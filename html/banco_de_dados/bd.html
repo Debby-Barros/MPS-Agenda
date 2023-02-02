@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../css/bd.css">
+</head>
+<body>
+    <section>
+    <h1>Dicionário de dados: agenda_usuario</h1>
+    <p>Trata dos dados referentes ao usuário, armazena e gerencia essas informações.</p>
+
+    <table border="1">
+
+        <tbody>
+        <tr>
+            <td>Nome </td>
+            <td>Tipo </td>
+            <td>Descrição</td>
+            <td>Tamanho</td>
+        </tr>
+        <tr>
+            <td>usuario_id </td>
+            <td>INT</td>
+            <td>Número de identificação dos usuários.</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>usario_nome</td>
+            <td>VARCHAR</td>
+            <td>Nome informado pelo usuário.</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>usario_email</td>
+            <td>VARCHAR</td>
+            <td>Email informado pelo usuário.</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>usario_senha</td>
+            <td>VARCHAR</td>
+            <td>Senha informada pelo usuário.</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>usario_status</td>
+            <td>INT</td>
+            <td>Verificar se o usuário está ou não ativo.</td>
+            <td></td>
+        </tr>
+        
+        </tbody>
+     </table>
+
+
+    <h1>Dicionário de dados: agenda_eventos</h1>
+    <p>Trata dos dados referentes aos eventos da agenda, armazena e gerencia essas informações </p>
+
+    <table border="1">
+
+        <tbody>
+        <tr>
+            <td>Nome </td>
+            <td>Tipo </td>
+            <td>Descrição</td>
+            <td>Tamanho</td>
+        </tr>
+        <tr>
+            <td>evento_id </td>
+            <td>INT</td>
+            <td>Número de identificação dos eventos.</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>evento_data_hora</td>
+            <td>DATETIME</td>
+            <td>Data e hora do evento informado pelo usuário.</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>evento_descricao</td>
+            <td>VARCHAR</td>
+            <td>Descrever a respeito do evento informado pelo usuário.</td>
+            <td>200</td>
+        </tr>
+        <tr>
+            <td>evento_nome</td>
+            <td>VARCHAR</td>
+            <td>Nome do evento informado pelo usuário.</td>
+            <td>45</td>
+        </tr>
+
+        <tr>
+            <td>evento_status</td>
+            <td>INT</td>
+            <td>Verificar se o evento está ou não ativo.</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>usuario_id</td>
+            <td>INT</td>
+            <td>Chave estrangeira que identifica a quem o evento pertence.</td>
+            <td></td>
+        </tr>
+        
+        </tbody>
+
+     </table>
+    </section>
+</body>
+</html>

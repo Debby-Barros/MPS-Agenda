@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    padding-top: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+.casos {
+    margin-bottom: 80px;
+}
+
+.content{
+    color: rgb(34, 34, 34);
+    font-size: 1em;
+    margin-bottom: 100px;
+    line-height: 2em;
+    font-weight: 700;
+    overflow: hidden;
+}
+
+h1 {
+    margin-top: 10px;
+    color: #0482b4;
+    font-size: 3em;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+    margin-bottom: 40px;
+    margin-right: 250px;
+    margin-left: 250px;
+}
+
+.paragrafo {
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: justify;
+    margin-right: 250px;
+    margin-bottom: 50px;
+    margin-left: 250px;
+}
+
+h3 {
+    margin-bottom: 20px;
+    margin-right: 250px;
+    margin-left: 250px;
+}
+
+ul {
+    margin-bottom: 60px;
+    margin-right: 250px;
+    margin-left: 250px;
+}
+
+ul a {
+   color:rgb(73, 130, 184);
+   text-decoration: none;
+   list-style: none;
+}
+
+ul a li:hover{
+    color: #59b3f3;
+}
+
+img {
+ width: 50%;
+ margin-right: 250px;
+ margin-left: 350px;
+}
+
+.visu {
+    width: 60%;
+    margin-left: 240px;
+}
+
+.iii {
+    width: 40%;
+    margin-top: 20px;
+}
+
+.ii {
+    width: 30%;
+    margin-left: 240px;
+}
+
+.image {
+    width: 20%;
+    border: 0.5px solid black;
+    margin-right: 250px;
+    margin-left: 550px;
+}
+
+.i {
+    width: 25%;
+}
+
+.casos {
+    padding: 20px;
+}
+
+.casos h4 {
+    padding-top: 1px;
+    padding-bottom: 20px;
+    margin-right: 250px;
+    margin-left: 230px;
+}
+
+.casos ul {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20%;
+}
+
+.casos .imag{
+    margin-top: -100px;
+    margin-left: -80px;
+    margin-bottom: 60px;
+}
+
+.system a img{
+    margin-bottom: 80px;
+    width: 50%;
+}
+
+.imagem {
+    width: 70%;
+    margin-bottom: 100px;
+}
+
+.im {
+    width: 50%;
+    margin-bottom: 60px;
+}
+
+table {
+    color: rgb(7, 7, 7);
+    font-size: 1em;
+    margin-bottom: 80px;
+    width: 70%;
+    margin-left: 250px;
+    margin-right: -200px;
+}
